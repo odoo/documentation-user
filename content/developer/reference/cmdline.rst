@@ -254,6 +254,11 @@ Emails
 
     Email address used as <FROM> when Odoo needs to send mails
 
+.. option:: --from-filter <address>
+
+    Define for which email address this SMTP configuration can be used (can be empty, a domain name or an entire email address).
+    If the sender do not match this filter, his email will be encapsulated.
+
 .. option:: --smtp <server>
 
     Address of the SMTP server to connect to in order to send mails
@@ -271,6 +276,14 @@ Emails
 .. option:: --smtp-password <password>
 
     Password to connect to the SMTP server
+
+.. option:: --smtp-ssl-certificate <SSL certificate>
+
+    SSL certificate to use for the authentication. If set, "smtp-ssl-private-key" is required.
+
+.. option:: --smtp-ssl-private-key <SSL private key>
+
+    SSL private key to use for the authentication. If set, "smtp-ssl-certificate" is required.
 
 .. _reference/cmdline/server/internationalisation:
 
