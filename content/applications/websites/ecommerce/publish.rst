@@ -6,7 +6,7 @@ Launch my website
    :titlesonly:
 
    ../website/publish/domain_name
-   ../website/publish/on-premise_geo-ip-installation
+   ../website/publish/geo_ip_installation
    ../website/publish/translate
 
 

@@ -1,64 +1,63 @@
-===============================
-How to translate my website
-===============================
+===================
+Website translation
+===================
 
-Overview
-========
+In addition to creating beautiful, professional-grade websites, Odoo provides users with the ability
+to translate them into multiple different languages - at any time.
 
-In addition to creating great modern websites, Odoo gives you the
-possibility to translate it in different languages.
+Translate
+=========
 
-Process
-=======
+To enable translation, go to your website, and scroll down to your footer. Click on the
+language (i.e. *English - US*) to reveal a menu, then click *Add a Language*.
 
-Once your website is created, you have the opportunity to translate it
-in as many different languages as you want.
+.. image:: translate/translate-menu.png
+   :align: center
+   :alt: translate menu in the website footer
 
-There are two ways to translate your website, you can do it manually or
-automatically with the Gengo App. If you want to do it automatically, go
-to the **App** module and Install **Automated translations through Gengo
-Api** and **Website Gengo Translator**. If you want to do it manually,
-don't install anything, and follow the next step.
+Choose the language you want from the language pop-up that appears. You can also decide which
+website you'd like to apply it to here, as well. Then, click *Add*.
 
-Now go to your website. On the bottom right corner of the page, click on
-**Add a language**.
+.. image:: translate/translate-pop-up.png
+   :align: center
+   :alt: add a language feature
 
-.. image:: media/translate_website01.png
-    :align: center
+When you navigate back to your website, that new language is now an option.
 
-Choose the language in which you want to translate your website and then
-click on **Load.**
+.. image:: translate/new-language-option.png
+   :align: center
+   :alt: showing a new language option in footer
 
-.. image:: media/translate_website02.png
-    :align: center
+When selected, some of the text translates automatically.
 
-You will see that Now, next to English there is also French, which means
-that the page for the translation has been created. You can also see
-that some of the text has been translated automatically.
+.. image:: translate/auto-translation.png
+   :align: center
+   :alt: new language option available
 
-.. image:: media/translate_website03.png
-    :align: center
+To translate the content of the website, click on **Translate** (in the upper-right corner), which
+appears in that newly-chosen language.
 
-To translate the content of the website, click on **Translate** (here
-**Traduire** since we want to translate the website in French).
+Here, for example, it's **Traduire**, since we are translating the website in French.
 
-There, if you have installed the Gengo Translator, You will see that
-next to the **Translate** button you also have a button **Translate
-automatically**. Once you click on that button, you will be asked some
-information on your account. If you don't have an account yet, follow
-`this link <https://gengo.com/auth/form/login/>`_
-in order to create one. You need to ask for a public key and a private
-key.
+.. image:: translate/translate-button.png
+   :align: center
+   :alt: translate button
 
-The content you wish to translate will then be translated automatically.
+At this point, most of the content is highlighted in yellow or green.
 
-.. image:: media/translate_website04.png
-    :align: center
+The yellow represents content that you have to translate manually, and green represents content that
+has already been translated by Odoo automatically.
 
-Now you can see that most of the content is highlighted in yellow or
-in green. The yellow represents the content that you have to translate by
-yourself. The green represents the content that has already been translated
-automatically.
+.. image:: translate/translate-colors.png
+   :align: center
+   :alt: green and yellow translate colors
 
-.. image:: media/translate_website05.png
-    :align: center
+.. seealso::
+
+   :doc:`../publish/essentials`
+
+   :doc:`../publish/geo_ip_installation`
+
+   :doc:`../publish/multi_website`
+
+   :doc:`../publish/domain_name`
