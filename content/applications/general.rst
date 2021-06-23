@@ -52,7 +52,6 @@ find, for example, information about:
 .. _general/apps-modules:
 
 Apps and modules
-================
 
 You can :ref:`install <general/install>`, :ref:`upgrade <general/upgrade>` and :ref:`uninstall
 <general/uninstall>` all apps and modules from the :menuselection:`Apps` dashboard.
@@ -182,3 +181,7 @@ notifications in the mobile app.
 
 Simply go to :menuselection:`Settings --> General Settings --> Odoo Cloud Notification (OCN)`
 and make sure that **Push Notifications** is checked.
+=======
+    general/developer_mode
+    general/mobile
+    general/email_communication
