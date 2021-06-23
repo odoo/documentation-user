@@ -52,7 +52,6 @@ find, for example, information about:
 .. _general/apps-modules:
 
 Apps and modules
-================
 
 Odoo is *not a smartphone*, and its apps shouldn't be installed or uninstalled carelessly. Apply
 caution when adding or removing apps and modules on your database since this may impact your
@@ -145,3 +144,7 @@ notifications in the mobile app.
 
 Simply go to :menuselection:`Settings --> General Settings --> Odoo Cloud Notification (OCN)`
 and make sure that **Push Notifications** is checked.
+=======
+    general/developer_mode
+    general/mobile
+    general/email_communication
