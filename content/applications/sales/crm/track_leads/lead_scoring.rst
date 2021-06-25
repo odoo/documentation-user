@@ -2,77 +2,81 @@
 Assign leads based on scoring
 =============================
 
-With *Leads Scoring* you can automatically rank your leads based on
-selected criteria.
+.. important::
+   This feature will be completely replaced by **Predictive Lead Scoring** with Version 14.3's
+   release.
 
-For example you could score customers from your country higher or the
-ones that visited specific pages on your website.
+With *Lead Scoring* you can automatically rank your leads based on selected criteria.
+
+For example, you could score customers higher if coming from the same country as your company over a
+customer from a different country.
 
 Configuration
 =============
 
-To use scoring, install the free module *Lead Scoring* under your
-*Apps* page (only available in Odoo Enterprise).
+To use scoring, go to :menuselection: 'Apps', remove the *Apps* filter, search for *Lead Scoring*,
+and install the module.
 
-.. image:: media/lead_scoring01.png
+.. image:: lead_scoring/lead-scoring-module.png
    :align: center
+   :alt: Lead Scoring module installation
 
 Create scoring rules
 ====================
 
-You now have a new tab in your *CRM* app called *Leads Management*
-where you can manage your scoring rules.
+To manage your scoring rules, go to :menuselection: 'CRM --> Leads --> Scoring Rules'.
 
-Here's an example for a Canadian lead, you can modify for whatever
-criteria you wish to score your leads on. You can add as many criteria
-as you wish.
+Here's an example of a scoring rule for English-speaking Canadian users. You can modify your rules
+to match whatever criteria you want to score leads on, and you can add as many criteria as you would
+like.
 
-.. image:: media/lead_scoring02.png
+.. image:: lead_scoring/scoring-example.png
    :align: center
+   :alt: Score Rule example
 
-Every hour every lead without a score will be automatically scanned and
-assigned their right score according to your scoring rules.
+Every hour, leads without a score are scanned and are then assigned a score according to your
+configured rules.
 
-.. image:: media/lead_scoring03.png
+.. image:: lead_scoring/scoring-section-on-lead.png
    :align: center
+   :alt: Scoring section on a lead
 
 Assign leads
 ============
 
-Once the scores computed, leads can be assigned to specific teams using
-the same domain mechanism. To do so go to :menuselection:`CRM --> Leads Management --> Team Assignation`
-and apply a specific domain on each team. This domain can include scores.
+Once the score is computed, leads can be assigned to specific teams. To do so, head to
+:menuselection:`CRM --> Leads --> Team Assignment` and apply a specific domain to each team. This
+domain can include scores.
 
-.. image:: media/lead_scoring04.png
+.. image:: lead_scoring/team-assignation.png
    :align: center
+   :alt: Team Assignments using domains
 
-Further on, you can assign to a specific vendor in the team with an even
-more refined domain.
+If you want more granularity, you can assign leads to a specific salesperson on the team using
+further refined domains.
 
-To do so go to :menuselection:`CRM --> Leads Management --> Leads Assignation`.
+To do so, go to :menuselection:`CRM --> Leads --> Leads Assignment` and add the specific domains.
 
-.. image:: media/lead_scoring05.png
+.. image:: lead_scoring/lead-assignment-filters.png
    :align: center
+   :alt: Lead Assignments
 
 .. note::
-   The team & leads assignation will assign the unassigned leads
-   once a day.
+   The Team and Leads Assignments are assigned to unassigned leads once per day.
 
 Evaluate & use the unassigned leads
 ===================================
 
-Once your scoring rules are in place you will most likely still have
-some unassigned leads. Some of them could still lead to an opportunity
-so it is useful to do something with them.
+Once your scoring rules are in place, you likely still have some unassigned leads. Some of these
+leads could still transition into an opportunity, so ensuring they are handled is both useful and
+important.
 
-In your leads page you can place a filter to find your unassigned leads.
+On your leads overview page, you filter for your unassigned leads.
 
-.. image:: media/lead_scoring06.png
+.. image:: lead_scoring/unassigned-filter.png
    :align: center
+   :alt: Filtering for unassigned leads
 
-Why not using :menuselection:`Email Marketing` or
-:menuselection:`Marketing Automation` apps to send a mass email to
-them? You can also easily find such unassigned leads from there.
-
-.. image:: media/lead_scoring07.png
-   :align: center
+.. note::
+   You can also easily find unassigned leads by using the **Email Marketing** or **Marketing
+   Automation** apps to create a re-engagement campaign.
