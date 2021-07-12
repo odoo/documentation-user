@@ -1,47 +1,78 @@
-===========================
-Manage multiple sales teams
-===========================
+====================
+Multiple sales teams
+====================
 
-In Odoo, you can manage several sales teams, departments or channels
-with specific sales processes. To do so, we use the concept of *Sales
-Channel*.
+In Odoo, you can manage several sales teams, departments, or channels with each having their own
+specific sales processes. These can be managed using *Sales Teams*.
+
 
 Create a new sales channel
 ==========================
 
-To create a new *Sales Channel*, go to :menuselection:`Configuration --> Sales Channels`.
+To create a new *Sales Team*, go to :menuselection:`CRM --> Configuration --> Sales Teams` then
+click **Create**.
 
-There you can set an email alias to it. Every message sent to that email
-address will create a lead/opportunity.
+Once on the creation page, you can set an email alias for your team, and every message sent to that
+email address will create a lead/opportunity in your pipeline. You can also choose whether you
+accept emails from *Everyone*, *Authenticated Partners*, or *Followers Only*.
 
-.. image:: media/multi_sales_team01.png
-    :align: center
+Additionally, you can set up a domain if you want your team to receive leads/opportunities based on
+specific filters, such as country, language, etc. Set an invoicing target if your team has specific
+monthly revenue targets they need to achieve.
 
-Add members to your sales channel
----------------------------------
+.. image:: multiple_sales_teams/sales-team-creation.png
+   :align: center
+   :alt: Creating a Sales Team
 
-You can add members to any channel; that way those members will see the
-pipeline structure of the sales channel when opening it. Any
-lead/opportunity assigned to them will link to the sales channel.
-Therefore, you can only be a member of one channel.
+.. tip::
+   A team name, who you accept emails from, and a minimum score are all required form fields.
 
-This will ease the process review of the team manager.
+Add members to your Sales Team
+------------------------------
 
-.. image:: media/multi_sales_team02.png
-    :align: center
+Team members can be added directly to the Sales Teams creation template when creating a new team or
+at a later time via editing. Click on *Add* under the *Assignment* tab, and choose a salesperson by
+typing in their name, selecting them from the drop down, or adding in a new name. If your team wants
+to ensure that your salespeople are not overdoing it, you can set a maximum number of leads in a 30
+day period.
 
-If you now filter on this specific channel in your pipeline, you will
-find all of its opportunities.
+.. image:: multiple_sales_teams/add-a-salesperson.png
+   :align: center
+   :alt: Adding a Salesperson
 
-.. image:: media/multi_sales_team03.png
-    :align: center
+Assigning a *Team Leader* to your Sales Team follows a similar process as a adding a salesperson.
+Type in the leader's name or choose their name from the dropdown menu.
 
-Sales channel dashboard
-=======================
+Both team members and Team Leaders can be added to multiple Sales Teams, which allows them to easily
+check all of the pipelines they need access to.
 
-To see the operations and results of any sales channel at a glance, the
-sales manager also has access to the *Sales Channel Dashboard* under
-*Reporting*.
+Sales Team Overviews
+====================
 
-It is shared with the whole ecosystem so every revenue stream is
-included in it: Sales, eCommerce, PoS, etc.
+To head over to the overview, go to :menuselection:`CRM --> Configuration --> Sales Teams`. Any
+teams you are a part of will appear as overview tiles.
+
+Each tile shows:
+
+- All of the open and overdue opportunities, quotations, and orders needing an invoice and the
+  revenue associated with each.
+- Graphs showing new opportunities broken down by week
+- An invoicing progress bar to show your team’s progress towards the invoicing goal set in the team
+  settings
+
+.. image:: multiple_sales_teams/sales-team-overview.png
+   :align: center
+   :alt: Sales Team Overview
+
+Clicking on the three little dots opens another menu where you can quickly access information,
+such as viewing quotations, creating a new opportunity, or opening a report. Additionally, you can
+choose a color for your team as well as access the team configuration template.
+
+.. image:: multiple_sales_teams/team-overview-three-dot-menu.png
+   :align: center
+   :alt: Three Dot Menu
+
+If you are a sales manager managing multiple teams, you can easily tap on *Pipeline*, and Odoo will
+take you directly to that team’s pipeline without having to access the Sales menu.
+
+
