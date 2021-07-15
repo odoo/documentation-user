@@ -478,6 +478,9 @@ fiscal elements that indicate that the document is fiscally valid:
    :align: center
    :alt: Barcode and fiscal elements in the invoice report.
 
+.. important::
+   If you are hosted in Odoo SH or On-Premise, you should manually install the “pdf417gen”
+   library. Use the following command to install it: “pip install pdf417gen”.
 
 Commercial Validation
 ~~~~~~~~~~~~~~~~~~~~~
